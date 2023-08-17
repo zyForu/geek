@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <module type="JAVA_MODULE" version="4">
   <component name="ExternalSystem" externalSystem="Maven" />
+=======
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+>>>>>>> 5f39118246e753aea6ce2c92e80f5c21f0b57d4f
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
