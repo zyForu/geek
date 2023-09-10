@@ -50,7 +50,7 @@ public class HttpHeroResponse implements HeroResponse {
                 Unpooled.wrappedBuffer(data));
 
         HttpHeaders headers = response.headers();
-        headers.set(HttpHeaderNames.CONTENT_TYPE, "text/json");
+        headers.set(HttpHeaderNames.CONTENT_TYPE, "image");
         headers.set(HttpHeaderNames.CONTENT_LENGTH, response.content().readableBytes());
         headers.set(HttpHeaderNames.EXPIRES, 0);
         if(HttpUtil.isKeepAlive(request)) {
